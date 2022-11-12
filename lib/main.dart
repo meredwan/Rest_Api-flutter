@@ -3,6 +3,7 @@ import 'package:flutter_restapi/Homepage.dart';
 //import 'package:flutter_restapi/Homepage.dart';
 import 'package:flutter_restapi/Photo/ui_part.dart';
 import 'package:flutter_restapi/Postapi/Postapi.dart';
+import 'package:flutter_restapi/UserDetails/User_ui.dart';
 import 'package:http/http.dart';
 
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PostApi(),
+      home: Userui(),
     );
   }
 }
